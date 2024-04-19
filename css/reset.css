@@ -1,0 +1,42 @@
+/* +++++++++++ Linked fonts +++++++++++ */
+/* font name == Rajdhani */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Myeongjo&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+/* default reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+header,
+nav,
+section,
+footer,
+figure,
+img {
+	display: block;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: #ccc;
+}

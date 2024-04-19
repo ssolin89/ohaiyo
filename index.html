@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Linked CSS Area -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="lib/fullpage/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">
+
+	<title>ohiyo!</title>
+</head>
+
+<body>
+
+	<div id="oni_wrap">
+		<header id="hd">
+			<nav>
+				<ul class="nav_left">
+					<li data-menuanchor="section2">
+						<a href="#section2">about us</a>
+						<span class="under_"></span>
+					</li>
+					<li data-menuanchor="section3">
+						<a href="#section3">location</a>
+						<span class="under_"></span>
+					</li>
+					<li data-menuanchor="section4">
+						<a href="#section4">contact</a>
+						<span class="under_"></span>
+					</li>
+				</ul>
+				<ul class="nav_right">
+					<li><a href="sub/sub0.html">menu</a></li>
+					<li><a href="javascript:alert('준비중입니다.');" onfocus="this.blur()">order now</a></li>
+				</ul>
+			</nav>
+			<h1 class="hd_logo" data-menuanchor="section1"><a href="#section1"></a></h1>
+			<nav class="mo_menu">
+				<div class="menu_inner">
+					<a href="#section2">about</a>
+					<a href="#section3">location</a>
+					<a href="#section4">contact</a>
+					<a href="sub/sub0.html">menu</a>
+					<a href="#none">order now</a>
+				</div>
+			</nav>
+			<div class="hamburger" id="ham">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>
+			</div>
+			<div class="cart" id="cart"><a href="javascript:alert('준비중입니다.');"></a></div>
+		</header>
+
+
+		<div id="ohiyo_full">
+			<div class="section sec1" name="section1">
+				<h3>section1</h3>
+				<div class="inner">
+					<div class="txt0">
+						<img src="img/wemakeur.png" alt="wemakeyour">
+					</div>
+					<div class="oni_img">
+						<img src="img/ONIGIRI.png" alt="오니기리">
+					</div>
+					<div class="txt1">
+						<img src="img/goodmorning.png" alt="goodmorning">
+					</div>
+					<div class="mo_txt">
+						<img src="img/mobile/morning.png" alt="morning_mo">
+					</div>
+				</div>
+			</div>
+			<div class="section sec2" name="section2">
+				<h3>section2</h3>
+				<div class="inner">
+					<div class="top">
+						<img src="img/LOGO_BIG.png" alt="LOGO_BIG">
+					</div>
+					<div class="bottom">
+						<span>
+							The name OHIYO is from おはよう[ohayo] meaning good morning in japanesse.<br />
+							Representing for OHIYO's brand spirit, we serve delicious onigiri made with<br />
+							fresh ingredients as a morning pick-me-up.
+						</span>
+						<span class="mo_txt">
+							The name OHIYO is from<br />
+							おはよう[ohayo] meaning<br />
+							good morning in japanesse.<br />
+							Representing for<br />
+							OHIYO's brand spirit,<br />
+							we serve delicious onigiri made<br />
+							with fresh ingredients<br />
+							as a morning pick-me-up.
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="section sec3" name="section3">
+				<h3>section3</h3>
+				<div class="inner">
+					<div class="left">
+						<h4>enter zip code or city</h4>
+						<form id="search_form" action="">
+							<input type="text" id="search">
+							<button id="searchBtn">search</button>
+						</form>
+						<span class="line_"></span>
+						<ul class="list">
+							<!-- li0 : VIRGINIA -->
+							<li class="li0">
+								<div class="area">
+									<span class="tit">virginia</span>
+									<span class="desc">
+										117 WEST BROAD STREET<br />
+										RICHMOND, VA 23220
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										804-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li1 : District of Columbia -->
+							<li class="li1">
+								<div class="area">
+									<span class="tit">district of columbia</span>
+									<span class="desc">
+										Constitution Ave NW &amp;, 7th St NW<br />
+										Washington, DC 20444
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										202-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li2 : New York -->
+							<li class="li2">
+								<div class="area">
+									<span class="tit">new york</span>
+									<span class="desc">
+										666 8th Ave<br />
+										New York, NY 10018
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										212-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li3 : New Jersey -->
+							<li class="li3">
+								<div class="area">
+									<span class="tit">new jersey</span>
+									<span class="desc">
+										7101 Tonnelle Ave<br />
+										North Bergen, NJ 07047
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										201-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li4 : Ohio -->
+							<li class="li4">
+								<div class="area">
+									<span class="tit">ohio</span>
+									<span class="desc">
+										666 E State St<br />
+										Columbus, OH 43215
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										614-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li5 : Illinois -->
+							<li class="li5">
+								<div class="area">
+									<span class="tit">illinois</span>
+									<span class="desc">
+										666 W North St<br />
+										Springfield, IL 62704
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										217-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li6 : Atlanta -->
+							<li class="li6">
+								<div class="area">
+									<span class="tit">atlanta</span>
+									<span class="desc">
+										666 Baker St NW<br />
+										Atlanta, GA 30313
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										404-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li7 : Florida -->
+							<li class="li7">
+								<div class="area">
+									<span class="tit">florida</span>
+									<span class="desc">
+										6666 Universal Blvd<br />
+										Orlando, FL 32819
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										407-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li8 : Colorado -->
+							<li class="li8">
+								<div class="area">
+									<span class="tit">colorado</span>
+									<span class="desc">
+										1200 N Broadway<br />
+										Denver, CO 80203
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										303-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li9 : Washington -->
+							<li class="li9">
+								<div class="area">
+									<span class="tit">washington</span>
+									<span class="desc">
+										1666 California Way SW<br />
+										Seattle, WA 98116
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										206-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li10 : California -->
+							<li class="li10">
+								<div class="area">
+									<span class="tit">california</span>
+									<span class="desc">
+										666 N Grand Ave<br />
+										Los Angeles, CA 90012
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										213-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+							<!-- li11 : Hawaii -->
+							<li class="li11">
+								<div class="area">
+									<span class="tit">hawaii</span>
+									<span class="desc">
+										180 N Vineyard Blvd<br />
+										Honolulu, HI 96817
+									</span>
+								</div>
+								<div class="phone">
+									<span class="tit">PHONE</span>
+									<span class="desc">
+										808-000-0000
+									</span>
+								</div>
+								<div class="hours">
+									<span class="tit">HOURS</span>
+									<span class="desc">
+										MON - FRI<br />
+										8AM - 4PM<br />
+										SAT<br />
+										9AM - 3PM
+									</span>
+								</div>
+								<div class="btnArea">
+									<button id="vi_on_map">VIEW ON MAP</button>
+									<button id="more_info">MORE INFO</button>
+									<button id="order_online">ORDER ONLINE</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<div class="map_box"></div>
+						<div class="point_box">
+							<figure class="pin0"><img src="img/pin.png" alt="verginia"></figure>
+							<figure class="pin1"><img src="img/pin.png" alt="District_of_Columbia"></figure>
+							<figure class="pin2"><img src="img/pin.png" alt="New_York"></figure>
+							<figure class="pin3"><img src="img/pin.png" alt="New_Jersey"></figure>
+							<figure class="pin4"><img src="img/pin.png" alt="ohio"></figure>
+							<figure class="pin5"><img src="img/pin.png" alt="Illinois"></figure>
+							<figure class="pin6"><img src="img/pin.png" alt="Atlanta"></figure>
+							<figure class="pin7"><img src="img/pin.png" alt="Florida"></figure>
+							<figure class="pin8"><img src="img/pin.png" alt="Colorado"></figure>
+							<figure class="pin9"><img src="img/pin.png" alt="Washington"></figure>
+							<figure class="pin10"><img src="img/pin.png" alt="California"></figure>
+							<figure class="pin11"><img src="img/pin.png" alt="Hawaii"></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section sec4" name="section4">
+				<h3>section4</h3>
+				<div class="inner">
+					<div class="left">
+						<ul>
+							<li>
+								<a href="#none">
+									<img src="img/twitter.png" alt="twitter">
+								</a>
+							</li>
+							<li>
+								<a href="#none">
+									<img src="img/insta.png" alt="insta">
+								</a>
+							</li>
+							<li>
+								<a href="#none">
+									<img src="img/facebook.png" alt="facebook">
+								</a>
+							</li>
+						</ul>
+						<p class="e_txt">master@ohiyo.com</p>
+					</div>
+					<div class="right">
+						<figure class="tit">
+							<img src="img/conus.png" alt="contact_us_img">
+						</figure>
+						<div class="form">
+							<form action="#">
+								<div class="table">
+									<div class="t_row">
+										<div class="t_cell">
+											<label for="">NAME</label>
+											<input class="input_" type="text" name="from_name">
+										</div>
+									</div>
+									<div class="t_row">
+										<div class="t_cell">
+											<label for="">EMAIL</label>
+											<input class="input_" type="email" name="from_email">
+										</div>
+									</div>
+									<div class="t_row">
+										<div class="t_cell">
+											<label for="">MESSAGE</label>
+											<textarea name="message"></textarea>
+											<input id="send_btn" type="submit" value="SEND">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Linked Script Area -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="lib/fullpage/jquery.fullPage.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		
+	</script>
+</body>
+
+</html>

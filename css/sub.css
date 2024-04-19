@@ -1,0 +1,369 @@
+/* section common */
+
+.section .sub_inner {
+	margin-top: 100px;
+}
+
+.section .sub_inner .tit_img {
+	margin-bottom: 50px;
+}
+
+/* sec1 */
+.sec1 .sub_inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 4%;
+}
+
+.sec1 .sub_inner .tit_img {
+	width: 371px;
+	height: 173px;
+	margin-bottom: 46px;
+}
+
+
+.sec1 .sub_inner .tit_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.sec1 .sub_inner .contain_img {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+
+.sec1 .sub_inner .contain_img > figure > img {
+	width: 100%;
+}
+
+.sec1 .sub_inner .contain_img .dots_line .dots_mo{
+	display: none;
+}
+
+.sec1 .sub_inner .contain_img > figure:first-child {
+	margin-left: 0;
+}
+
+.sec1 .sub_inner .contain_img > figure:last-child {
+	margin-right: 0;
+}
+
+.sec1 .sub_inner .contain_img .menu_food {
+	display: flex;
+	margin: 0 64px;
+	flex-direction: column;
+}
+
+.sec1 .sub_inner .contain_img .menu_food > a {
+	display: flex;
+	flex-direction: column;
+	transition: all 0.5s;
+}
+
+.sec1 .sub_inner .contain_img .menu_food > a:hover img {
+	animation-name: shake;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.1s;
+}
+
+@keyframes shake {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	10% {
+		transform: rotate(20deg);
+	}
+
+	20% {
+		transform: rotate(-20deg);
+	}
+
+	30% {
+		transform: rotate(10deg);
+	}
+
+	40% {
+		transform: rotate(-10deg);
+	}
+
+	50% {
+		transform: rotate(5deg);
+	}
+
+	60% {
+		transform: rotate(5deg);
+	}
+
+	70% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.sec1 .sub_inner .contain_img .menu_food .fd_txt {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding-top: 18px;
+	display: inline-block;
+}
+
+.sec1 .sub_inner .contain_img .dots_line {
+	width: 76px;
+	height: 4px;
+	position: relative;
+	top: -86px;
+}
+
+/* sec2 */
+.sec2 .sub_inner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sec2 .sub_inner .tit_img {
+	width: 228px;
+	height: 56px;
+}
+
+/* mobile */
+.sec2 .sub_inner .tit_img_mo{
+	display: none;
+}
+
+.sec2 .sub_inner .tit_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.sec2 .sub_inner .onigiri_list {
+	display: flex;
+}
+
+.sec2 .sub_inner .onigiri_list li {
+	width: 230px;
+	height: 440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #20AD3A;
+	box-sizing: border-box;
+	margin-right: 38px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.sec2 .sub_inner .onigiri_list li:last-child {
+	margin-right: 0;
+}
+
+.sec2 .sub_inner .onigiri_list li:hover {
+	background: #20AD3A;
+}
+
+.sec2 .sub_inner .onigiri_list li:hover .titBox > span {
+	color: #fff;
+}
+
+.sec2 .sub_inner .onigiri_list .titBox {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sec2 .sub_inner .onigiri_list .titBox > span {
+	color: #20AD3A;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 18px;
+}
+
+.sec2 .sub_inner .onigiri_list .titBox .tit {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.sec2 .sub_inner .onigiri_list .titBox .desc {
+	font-size: 20px;
+}
+
+.sec2 .sub_inner .onigiri_list .titBox .desc.mo_{
+	display: none;
+}
+
+.sec2 .sub_inner .onigiri_list .imgBox {
+	padding-bottom: 40px;
+}
+
+
+/* sec3 */
+.sec3 .sub_inner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sec3 .sub_inner .tit_img {
+	width: 297px;
+	height: 56px;
+}
+
+.sec3 .sub_inner .tit_img_mo {
+	display: none;
+}
+
+.sec3 .sub_inner .tit_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.sec3 .sub_inner .side_dish_list {
+	display: flex;
+}
+
+.sec3 .sub_inner .side_dish_list li {
+	width: 400px;
+	height: 440px;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #20AD3A;
+	box-sizing: border-box;
+	margin-right: 38px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.sec3 .sub_inner .side_dish_list li:last-child {
+	margin-right: 0;
+}
+
+.sec3 .sub_inner .side_dish_list li:hover {
+	background: #20AD3A;
+}
+
+.sec3 .sub_inner .side_dish_list li:hover .titBox > span {
+	color: #fff;
+}
+
+.sec3 .sub_inner .side_dish_list .titBox {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sec3 .sub_inner .side_dish_list .titBox > span {
+	color: #20AD3A;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 18px;
+}
+
+.sec3 .sub_inner .side_dish_list .titBox .tit {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.sec3 .sub_inner .side_dish_list .titBox .desc {
+	font-size: 20px;
+}
+
+.sec3 .sub_inner .side_dish_list .imgBox {
+	padding-bottom: 40px;
+}
+
+
+/* sec4 */
+.sec4 .sub_inner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sec4 .sub_inner .tit_img {
+	width: 167px;
+	height: 55px;
+}
+
+.sec4 .sub_inner .tit_img_mo {
+	display: none;
+}
+
+.sec4 .sub_inner .tit_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.sec4 .sub_inner .soup_list {
+	display: flex;
+}
+
+.sec4 .sub_inner .soup_list li {
+	width: 400px;
+	height: 440px;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #20AD3A;
+	box-sizing: border-box;
+	margin-right: 38px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.sec4 .sub_inner .soup_list li:last-child {
+	margin-right: 0;
+}
+
+.sec4 .sub_inner .soup_list li:hover {
+	background: #20AD3A;
+}
+
+.sec4 .sub_inner .soup_list li:hover .titBox > span {
+	color: #fff;
+}
+
+.sec4 .sub_inner .soup_list .titBox {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sec4 .sub_inner .soup_list .titBox > span {
+	color: #20AD3A;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 18px;
+}
+
+.sec4 .sub_inner .soup_list .titBox .tit {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.sec4 .sub_inner .soup_list .titBox .desc {
+	font-size: 20px;
+}
+
+.sec4 .sub_inner .soup_list .imgBox {
+	padding-bottom: 40px;
+}
+
+
+
+
